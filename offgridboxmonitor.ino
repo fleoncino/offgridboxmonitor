@@ -12,6 +12,16 @@ const int SD_SPI_1 = 2;
 const int SD_SPI_2 = 3;
 const int SD_SPI_2 = 3;
 
+// TEMP PANEL
+const int TEMP_P_CS=8
+const int TEMP_P_CK=9
+const int TEMP_P_DO=10
+
+//TEMP AIR
+const int TEMP_A_CS=11
+const int TEMP_A_CK=12
+const int TEMP_A_DO=13
+
 //PUBLIC VARS
 float panelTemp      = 0.0;
 float ambientTemp    = 0.0;
